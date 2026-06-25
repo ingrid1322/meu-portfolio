@@ -34,7 +34,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-content: center;
-    background-color: var(--accent);
+    background-color: black;
     color: var(--texto);
     padding: 10px;
     position: sticky;
