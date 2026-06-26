@@ -110,7 +110,7 @@ div#social {
 }
 
 div#social a {
-    color: var(--accent);
+    color: var(--primário);
     transition: color 0.5s;
 }
 
@@ -120,6 +120,11 @@ div#social a:hover {
 
 section#detalhes {
     grid-column: 2;
+}
+
+section#detalhes .instituicao {
+    color: var(--accent);
+    padding: 10px;
 }
 
 article {
@@ -134,6 +139,13 @@ article h2 {
     margin-bottom: 20px;
 }
 
+article h3 {
+    color: var(--accent);
+}
+ article p {
+    color: var(--accent);
+ }
+
 
 #formacao-container {
     display: flex;
@@ -144,7 +156,7 @@ article h2 {
 #formacao-container .curso {
     background-color: var(--secundário);
     border-radius: 8px;
-    border-left: 5px solid var(--secundário);
+    border-left: 5px solid var(--accent);
     padding-left: 15px;
     transition: border-width 0.5s, border-color 0.5s;
 }
@@ -179,7 +191,7 @@ article h2 {
     background-color: var(--secundário);
     padding: 10px;
     border-radius: 8px;
-    border-left: 5px solid var(--accent);
+    border-left: 5px solid var(--texto);
     transition: border-width 0.5s, border-color 0.5s;
 }
 
